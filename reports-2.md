@@ -1,5 +1,5 @@
 #Part 1
-Code:
+#My code of StringServer:
 
 ```
 import java.io.IOException;
@@ -20,8 +20,11 @@ class Handler implements URLHandler {
                 s += num + ". "  + parameters[1] + "\n";
                 return s;
             }
+            else{
+                return "404 Not Found!";
+            }
         }
-    return "404 Not Found!";
+        return "Please use the '/add-message' to add a single string.";
     }
 }
 
@@ -38,5 +41,7 @@ class StringServer {
     }
 }
 ```
+#Add first single string "Hello".
+
 
 
