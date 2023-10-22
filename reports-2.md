@@ -42,6 +42,9 @@ class StringServer {
 }
 ```
 #Add first single string "Hello".
+![Image](6.jpg)
 
+#Add second single string "How are you".
+![Image](7.jpg)
 
 
