@@ -64,3 +64,10 @@ The relevant arguments are the URL and UCI. The UCI includes the path and query.
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 When we add "/add-message?s=How are you". The " /add-message" is the path, the "?s=Hello" is the query. Meanwhile, I use ```String[] parameters = url.getQuery()``` to take the query= parameters[] that I entered and use ```url.getQuery().split("=")``` to separate ? and Hello separately. Thus, ```parameters[0] = s```and ```parameters[1] = Hello```. I set up an if loop so that when ```parameters[0] = "s"``` we make num +1 with ``num+=1``. and ```s += num + ". " + parameters[1] + "\n"``` to add num and parameters[1] to the ```String s``` with a newline. Also, because my computer can't output ```%20``` as a space. Therefore, the output is "2. How+are+you".
+
+The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+![Image](4.jpg)
+The absolute path to the private key is in ```C:\Users\syunn\.ssh\id_rsa.pub```
+
+The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+![Image](5.jpg)
