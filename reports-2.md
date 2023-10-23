@@ -70,4 +70,6 @@ The path to the private key for your SSH key for logging into ieng6 (on your com
 The absolute path to the private key is in ```C:\Users\syunn\.ssh\id_rsa.pub```
 
 The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
-![Image](5.jpg)
+![Image](8.jpg)
+The absolute path to the public key is in ```/home/linux/ieng6/cs15lfa23/cs15lfa23gw/.ssh```
+
