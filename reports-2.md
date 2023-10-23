@@ -67,9 +67,18 @@ When we add "/add-message?s=How are you". The " /add-message" is the path, the "
 
 The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 ![Image](4.jpg)
-The absolute path to the private key is in ```C:\Users\syunn\.ssh\id_rsa.pub```
+The absolute path to the private key is in 
+```C:\Users\syunn\.ssh\id_rsa.pub```
 
 The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
 ![Image](8.jpg)
-The absolute path to the public key is in ```/home/linux/ieng6/cs15lfa23/cs15lfa23gw/.ssh```
+The absolute path to the public key is in ```/home/linux/ieng6/cs15lfa23/cs15lfa23gw/.ssh/authorized_keys```
 
+A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+![Image](9.jpg)
+Copy the local computer's private key to authorized_keys on the school server by ```scp C:\Users\syunn\.ssh\id_rsa.pubcs15lfa23gw@ieng6.ucsd.edu:~/.ssh/authorized_keys```.
+
+
+#Part 3
+In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
+I've never touched Linux at all but in, in week2 and week3 I learned how to use cd, ls, pwd and so on. At the same time, I also learned how to remote link, which was something I hadn't touched at all before. I also learned a lot about HTTP URLs and URIs. I think this knowledge will be very major for me to take many CSE classes in the future.
